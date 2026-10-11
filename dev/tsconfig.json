@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", "module": "ESNext", "moduleResolution": "Bundler",
+    "jsx": "react", "strict": true, "noEmit": true, "skipLibCheck": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2021"],
+    "baseUrl": ".", "paths": { "framer": ["./framer-stub.tsx"] }
+  },
+  "include": ["../framer/code/*.ts", "../framer/code/*.tsx", "./*.tsx"]
+}
